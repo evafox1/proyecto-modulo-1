@@ -1,0 +1,14 @@
+pseudocode 
+ALGORITMO convertir_celsius_a_ fahrenheit
+
+VARIABLES
+celsius: Real
+fahrenheit: Real
+
+INICIO
+  ESCRIBIR “Ingresar grados celsius”
+  LEER celsius
+  farenheit = celsius * 9/5 + 32
+  ESCRIBIR “ Los grados son: ”, fahrenheit
+FIN
+

@@ -1,0 +1,6 @@
+flowchart TD
+    INI([Inicio]) --> DATOC[/Ingresar grados Celsius/]
+    DATOC --> LEERC[/Leer grados Celsius/]
+    LEERC --> FOR["Fahrenheit = Celsius * 9/5 + 32"]
+    FOR --> RES[/Mostrar “Los grados son: ”resultado/]
+    RES --> FIN([Fin])

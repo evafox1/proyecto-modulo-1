@@ -1,0 +1,16 @@
+flowchart TD
+    INI([Inicio]) --> DATOP[/Ingresar peso/]
+    DATOP --> LEERP[/Leer peso/]
+    LEERP --> DATOA[/Ingresar altura/]
+    DATOA --> LEERA[/Leer altura/]
+    LEERA --> IMC["imc = peso / (altura * altura)"]
+    IMC --> IMC1{imc < 18.5}
+    IMC1 -->|Sí| PB[/Mostrar "Bajo peso"/]
+    IMC1 -->|No| IMC2{imc < 24.9}
+    IMC2 -->|Sí| PR[/Mostrar "Normal"/]
+    IMC2 -->|No| IMC3{imc < 29.9}
+    IMC3 -->|Sí| PS[/Mostrar "Sobrepeso"/]
+    IMC3 -->|No| O[/Mostrar "Obesidad"/]
+    O --> FIN([Fin])
+    PB & PR & PS --> FIN
+ 

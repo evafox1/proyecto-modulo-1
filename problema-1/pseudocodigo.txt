@@ -1,0 +1,28 @@
+pseudocode 
+ALGORITMO calcular_imc_mujeres
+
+VARIABLES
+peso: Real
+altura: Real
+imc: Real
+
+INICIO
+  ESCRIBIR “Ingresa peso”
+  LEER peso
+  ESCRIBIR “Ingresa altura”
+  LEER altura
+  IMC = peso/ (altura * altura)
+	SI imc < 18.5 ENTONCES
+  		ESCRIBIR “Bajo peso”
+	SINO  
+  		SI imc < 24.9 ENTONCES
+  			ESCRIBIR “Normal”
+  		SINO
+			SI imc < 29.9 ENTONCES
+  				ESCRIBIR “Sobrepeso”  
+  			SINO
+  				ESCRIBIR “Obesidad”
+			FIN SI 
+		FIN SI
+	FIN SI
+FIN

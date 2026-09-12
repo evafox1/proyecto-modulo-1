@@ -1,0 +1,7 @@
+flowchart TD
+    INI([Inicio]) --> DATOA[/Ingresar Año/]
+    DATOA --> LEERA[/Leer Año/]
+    LEERA --> COND{"SI año/4==entero && año/100!=entero || año/400==entero"}
+    COND --> |Si| BI[/Imprimir "Bisiesto"/]
+    COND -->|No| NBI[/Imprimir "No Bisiesto"/]
+    BI & NBI --> FIN([Fin])

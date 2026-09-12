@@ -1,0 +1,15 @@
+pseudocode 
+ALGORITMO determinar_año_bisiesto 
+
+VARIABLES: 
+año: Entero 
+
+INICIO 
+	ESCRIBIR "Ingresar año" 
+	LEER año 
+	SI año/4==entero && año/100!=entero || año/400==entero ENTONCES   
+		ESCRIBIR "Bisiesto" 
+	SINO 
+		ESCRIBIR "No Bisiesto" 
+	FIN SI 
+FIN

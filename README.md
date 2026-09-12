@@ -41,7 +41,7 @@ año/100 !== entero
 año/100 != entero  
 
 
-Presentacion: https://docs.google.com/presentation/d/1KzQtglj9LySs2aSFtyXKlXZ7oh7d8aFf/edit?usp=drive_link&ouid=104746092015463663760&rtpof=true&sd=true
+Presentacion: https://www.youtube.com/watch?v=YN5lBkqIYP0
 
 
 
